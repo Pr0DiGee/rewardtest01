@@ -184,14 +184,14 @@ const states = [
     text: "Let's act as the decoder. You have rebuilt this dictionary: [1=A], [2=B], [3=AB]. Decode this incoming stream of LZ tokens: 1, 2, 3, 3",
     dictionary: "[1=A], [2=B], [3=AB]",
     targetString: "1, 2, 3, 3",
-    expected: "abababab"
+    expected: "ababab"
   },
   {
     id: 19,
     mode: "lz",
     isInteractive: false,
     title: "PIPELINE SECURED: COMPRESSION MASTERED",
-    text: "Perfect! 1(A) + 2(B) + 3(AB) + 3(AB) = ABABABAB. You just executed Lempel-Ziv compression. This dynamic dictionary algorithm is the engine behind ZIP files, GIFs, and PNGs. You have successfully cleared the Data Compression pipeline!",
+    text: "Perfect! 1(A) + 2(B) + 3(AB) + 3(AB) = ABABAB. You just executed Lempel-Ziv compression. This dynamic dictionary algorithm is the engine behind ZIP files, GIFs, and PNGs. You have successfully cleared the Data Compression pipeline!",
     dictionary: null,
     targetString: null,
     expected: null
